@@ -11,10 +11,15 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
 
+
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/tbrMain"
             android:layout_height="?attr/actionBarSize"
             android:layout_width="match_parent">
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
         </androidx.appcompat.widget.Toolbar>
 
