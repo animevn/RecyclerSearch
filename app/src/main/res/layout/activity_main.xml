@@ -17,7 +17,9 @@
             android:id="@+id/tbrMain"
             android:layout_height="?attr/actionBarSize"
             android:layout_width="match_parent">
-            <SearchView
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/svMain"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 

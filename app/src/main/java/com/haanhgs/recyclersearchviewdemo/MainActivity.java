@@ -33,6 +33,21 @@ public class MainActivity extends AppCompatActivity {
         rvMain.setItemAnimator(new DefaultItemAnimator());
         adapter = new Adapter(test);
         rvMain.setAdapter(adapter);
+
+        SearchView searchView = findViewById(R.id.svMain);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                adapter.getFilter().filter(query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                adapter.getFilter().filter(newText);
+                return false;
+            }
+        });
     }
 
 //    @Override
