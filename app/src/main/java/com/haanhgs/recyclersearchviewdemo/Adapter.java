@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> implements Filterable {
 
-    private List<String> list;
+    private final List<String> list;
     private List<String> filterList;
 
     public Adapter(List<String> list){
@@ -41,7 +41,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> implements
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView tvRv;
+        private final TextView tvRv;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

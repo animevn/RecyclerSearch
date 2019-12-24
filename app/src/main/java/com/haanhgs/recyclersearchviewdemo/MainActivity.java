@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
