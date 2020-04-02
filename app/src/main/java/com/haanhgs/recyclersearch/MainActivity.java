@@ -1,9 +1,8 @@
-package com.haanhgs.recyclersearchviewdemo;
+package com.haanhgs.recyclersearch;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.SearchView;
 
 import java.util.ArrayList;

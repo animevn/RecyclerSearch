@@ -1,4 +1,4 @@
-package com.haanhgs.recyclersearchviewdemo;
+package com.haanhgs.recyclersearch;
 
 import android.graphics.Color;
 import android.text.SpannableString;
